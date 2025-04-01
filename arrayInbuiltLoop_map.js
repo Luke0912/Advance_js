@@ -27,3 +27,15 @@ const fun3 = (arr3) => {
 // console.log("arr3", fun3(arr3));
 
 // =================
+
+const arr4 = [1, 2, 3, 4, 5];
+
+const fun4 = (arr4) => {
+  let ret =  arr4.map((e) => {
+    console.log('e: ', e);
+    return e * e;
+  });
+  return ret
+};
+
+// console.log("arr4", fun4(arr4));
